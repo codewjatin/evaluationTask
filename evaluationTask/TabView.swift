@@ -23,7 +23,12 @@ struct MainTabView: View {
                 .tag(0)
             
             VStack {
-                Text("Next")
+                Image("sitanshu")
+                    .resizable()
+                    .frame(width: 300, height: 300)
+                
+                Text("Sitanshu bhaiya is one of the best leads i have met in SCC.")
+                    .frame(width: 320)
             }
                 .onAppear {
                     selectedRowIndex = 1
